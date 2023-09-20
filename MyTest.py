@@ -11,9 +11,8 @@ dict_Key = {
 }
 
 for i in final:
-    for j in dict_Key:
-        if i == j:
-            x = dict_Key.get(j)
+        if dict_Key.get(i):
+            x = dict_Key.get(i)
             count+=x
 
 print(count)
