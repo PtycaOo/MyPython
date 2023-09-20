@@ -6,3 +6,5 @@ numbers.insert(1, True) #вставляет значение по указанн
 b = [5,9,2]
 numbers.extend(b) #добавляет в список ряд элементов
 numbers.sort()
+
+1232321
