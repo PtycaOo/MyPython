@@ -10,11 +10,9 @@
 # 6 12
 
 x = int(input("Введите размер первой последовательности чисел: "))
+result_1 = set([int(input(f'Введите {i+1} значение: ')) for i in range(x)])
 y = int(input("Введите размер второй последовательности чисел: "))
-str1 = input(f"Введите {x} значений через пробел: ").split()
-str2 = input(f"Введите {y} значений через пробел: ").split()
-result_1 = set([int(x) for x in str1])
-result_2 = set([int(x) for x in str2])
+result_2 = set([int(input(f'Введите {i+1} значение: ')) for i in range(y)])
 result = list(result_1.intersection(result_2))
 result.sort()
 print(*result)
