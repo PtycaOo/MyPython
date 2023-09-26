@@ -15,7 +15,7 @@
 #         print(i, end = " ")
 #     else:
 #         my_dict[i] += 1
-#         print(f'{i}_{my_dict[i]}', end=' ')
+#         print(f'{i}_{my_dict[i]}', end =' ')
 
 # str = '''She sells sea shells on the sea shore The shells that she sells are sea shells I'm sure 
 # So if she sells sea shells on the sea shore I'm sure that the shells are sea shore shells'''.lower()
